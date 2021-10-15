@@ -1,0 +1,10 @@
+#-----------------------------------
+#
+#-----------------------------------
+msg = MIMEMultipart()
+msg['Subject']=subject 김인솔입니다.
+msg['From']=from_addr k7132474@gamil.com
+msg['To']=to_addr k7132474@naver.com
+
+# 본문 설정
+msg.attach(MIMEText(content, content_type))
